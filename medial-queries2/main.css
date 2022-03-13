@@ -1,3 +1,50 @@
 body {
   background: papayawhip;
 }
+
+h1,h2,p {
+  color: orangered;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 20px;
+}
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  margin: 10px;
+}
+
+.a,.b,.f {
+  display: flex;
+  border: solid 3px darkgreen;
+  width: 100%;
+}
+
+.c,.d,.e {
+  display: flex;
+  border: solid 3px darkgreen;
+  width: 33%;
+}
+
+.bf {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ce {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 100%;
+
+/* @media (min-width: 600px) {
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+} */
